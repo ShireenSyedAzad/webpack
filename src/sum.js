@@ -18,6 +18,24 @@ const cbrt = (a, b) => a * Math.cbrt(b);
 export {
   sum,
   difference,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   product,
   quotient,
   modulo,
