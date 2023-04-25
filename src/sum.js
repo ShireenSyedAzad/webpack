@@ -35,7 +35,7 @@ export {
 
 
 
-  
+
   product,
   quotient,
   modulo,

@@ -1,0 +1,44 @@
+{
+  "parser": "@javascript-eslint/parser",
+  "extends": [
+    "airbnb/base",
+    "plugin:@javascript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/javascript"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "camelcase": "off",
+    "@javascript-eslint/explicit-function-return-type": "off",
+    "@javascript-eslint/no-explicit-any": 1,
+    "@javascript-eslint/no-inferrable-types": [
+      "warn",
+      {
+        "ignoreParameters": true
+      }
+    ],
+    "no-underscore-dangle": "off",
+    "no-shadow": "off",
+    "no-new": 0,
+    "@javascript-eslint/no-shadow": ["error"],
+    "@javascript-eslint/no-unused-vars": "warn",
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "class-methods-use-this": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  }
+}
