@@ -9,4 +9,4 @@ console.log(diff);
 console.log(prod);
 console.log(mod);
 
-console.log("Hello, world!");
+console.log("Hello");
