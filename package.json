@@ -34,5 +34,8 @@
 		]
 	},
 	"repository": "https://ShireenSyedAzad@github.com/ShireenSyedAzad/webpack.git",
-	"author": "ShireenAzad <syed.shireen@everest.engineering>"
+	"author": "ShireenAzad <syed.shireen@everest.engineering>",
+	"dependencies": {
+		"react": "^18.2.0"
+	}
 }

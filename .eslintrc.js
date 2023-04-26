@@ -32,10 +32,14 @@ module.exports = {
 				ignoredNodes: ["ConditionalExpression"]
 			}
 		],
+
 		"linebreak-style": ["error", "unix"],
 		quotes: ["error", "double"],
 		semi: ["error", "always"],
-		"no-console": ["error"],
+		"no-console": [
+			"warn",
+			{ allow: ["clear", "info", "error", "dir", "trace", "log"] }
+		],
 		"no-unused-vars": ["error", { vars: "all" }]
 	},
 

@@ -8,3 +8,5 @@ console.log(total);
 console.log(diff);
 console.log(prod);
 console.log(mod);
+
+console.log("Hello, world!");
